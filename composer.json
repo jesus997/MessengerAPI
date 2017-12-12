@@ -1,0 +1,25 @@
+{
+    "name": "jesshilario/chatear",
+    "description": "CRUD para chat online",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Jesus Magallon",
+            "email": "magallonj23@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "JessHilario\\Chatear\\App\\": "app/",
+            "JessHilario\\Chatear\\Controller\\": "controllers/",
+            "JessHilario\\Chatear\\Model\\": "models/",
+            "JessHilario\\Chatear\\Config\\": "config/"
+        }
+    },
+    "require": {
+        "phroute/phroute": "^2.1",
+        "phlak/config": "^3.0",
+        "dompdf/dompdf": "^0.8.2"
+    }
+}
